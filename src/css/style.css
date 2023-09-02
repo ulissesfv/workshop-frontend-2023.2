@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Lato", sans-serif;
+    background-color: #000000;
+}
+.inicio {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #000000;
+    color: yellow;
+    border-bottom: 2px solid #001eff;
+}
+.inicio .conteudo {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: xx-large;
+    text-align: center;
+}
+.conteudo .textoConteudo {
+    font-size: 4vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.inicio .carrosselInicio {
+    width: 700px;
+    height: 80%;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px #355498;
+    border-radius: 10px;
+}
+.carrosselInicio .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+.container img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.persons {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.persons .headerPersons {
+    width: 100%;
+    height: 20%;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.persons .cardPersons {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.cardPersons .card {
+    width: 27%;
+    height: 42%;
+    border: 10px solid #0616ef;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border: 5px solid yellow;
+    border-radius: 2px;
+}
+.card .backgroundCard {
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.backgroundCard .nomeSW {
+    font-size: larger;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.backgroundCard .descSW {
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
